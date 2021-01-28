@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    transition: 0.5s all ease;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 97%;
+    height: 100%;
+    margin: auto;
+    
+}
+nav h1,nav ul{
+    flex: 1;
+
+}
+nav h1{
+    font-size: 30px;
+}
+nav ul,.option .menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li,.option .menu ul li{
+    list-style: none;
+}
+nav ul li a,.option .menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.front{
+    background: linear-gradient(to bottom ,rgb(0, 0, 0,0.5),rgba(0, 0, 0, 0)),url("./imgs/bg.jpeg");
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.stickHeader{
+    background-color: rgba(255, 255, 255, 0.842);
+    color: black;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+}
+.stickHeader a{
+    color: black;
+}
+
+/*------first blog----section*/
+.firstBlog{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px auto;
+    transition: 0.5s ease all;
+}
+.firstBlog div{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.firstBlog div img{
+    height: 70%;
+    width: 100%;
+}
+p{
+    font-size: 1.2rem;
+}
+.bgChange{
+    background-color: #fff;
+}
+/*----grid blog section*/
+
+.gridBlog{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px auto;
+}
+.gridBlog .blogCard{
+    height: 70%;
+    width: 30%;
+    display: flex;
+    align-items: flex-end;
+}
+.gridBlog .blogCard div{
+    margin: 10px;
+    color: white;
+}
+.card1{
+    background: linear-gradient(to top ,rgb(0, 0, 0),rgba(0, 0, 0, 0.4)),url("./imgs/img2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.card2{
+    background: linear-gradient(to top ,rgb(0, 0, 0),rgba(0, 0, 0, 0.4)),url("./imgs/img3.jpg");
+    background-size: cover;
+}
+.card3{
+    background: linear-gradient(to top ,rgb(0, 0, 0),rgba(0, 0, 0, 0.349)),url("./imgs/img4.jpg");
+    background-size: cover;
+}
+/*-------------crousel info----*/
+.carouselInfo{
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s ease all;
+}
+.carouselInfo .carouselBox{
+    height: 100%;
+    width: 40%;
+    float: right;
+    text-align: right;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/*-----------footer---------*/
+.footer{
+    height: 40vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.849);
+    margin: 10px auto;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .name,.option{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer .option div{
+    width: 100%;
+}
+
+
+
